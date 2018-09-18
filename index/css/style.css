@@ -20,5 +20,19 @@ main {
 
 
 .fullcard img{
-    width: 100%;
-}    
+    width: 50%;
+}  
+
+
+.fullcard {
+    width: 45%;
+    }
+.fullcard:first-child {
+    float:left;
+
+}
+
+.fullcard:last-child{
+    float: right;
+    
+}
