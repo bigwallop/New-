@@ -11,6 +11,7 @@ a:visited {color:#000;background-color:#139#385;}
 a:hover {background-color:#7B2728;} 
 a:active {background-color:#999999;}
 
+#content {height:1400px;background-color:#A34D4F;}
 #p1 {
 	width:400px;
 	height:400px;
@@ -34,8 +35,12 @@ a:active {background-color:#999999;}
     margin-right: 280px;
 }
 
+.entry1 {float:right;width:400px;margin-right:850px;margin-top:3px}
+.entry2 {float:right;width:400px;margin-top:-838px;margin-right:30px;}
+.entry3 {float:right;width:400px;margin-top:-840px;}
 
-.text {float:left;width:400px;margin-top:60px;}
+#abouttext {float:right;width:400;margin-left:auto;font-size:18px;}
+#abouttext {height:1400px;background-color:#A34D4F;}
 
 @media (min-width: 768px) {
 #wrapper {
