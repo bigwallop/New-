@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>title</title>
+<meta name="viewport" content="width=device-width, initial-scale1">
+<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+		
+</head>
+
+<body>
+	
+<div class="button-container">
+	<button onClick="changeMyText()">Change Text</button>
+	<button onClick="changeMyColor()">Change Color</button>
+	</div>	
+	
+	
+<h1 id="docheader">Goodbye, sky!</h1>	
+<script>
+	var docheader = document.getElementById("docheader");	
+	
+	var changeMyText = function(){
+		// This is my header text
+	var myText = "Hello, World!";
+	docheader.innerHTML = myText;	
+	}
+	
+	var changeMyColor = function (){
+		var red = Math.random()*255;
+		var green = Math.random()*255;
+		var blue = Math.random()*255;
+
+		var RGBval = "rgb(" + red + "," + green +","+ blue + ")";
+		docheader.style.color = RGBval
+	}
+	
+
+	// This is a numeric value for my header fnt size
+	//var myTextSize = Math.random()+100;
+	//console.log(docheader);
+	//docheader.innerHTML = myText; 
+	//docheader.style.fontSize = "px";
+
+	</script>
+	
+</body>
+</html>

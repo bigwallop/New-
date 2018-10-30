@@ -9,14 +9,17 @@ main {
     }
 .fullcard:first-child {
     float: left;
+    margin-right:5%
 
 }
 
 .fullcard:last-child{
     float: right;
-    
+    margin-left:5%
 }
-
+.clearfix {
+    clear: both;
+}
 
 
 .fullcard img{
@@ -29,10 +32,14 @@ main {
     }
 .fullcard:first-child {
     float:left;
+    margin-right:5%;
 
 }
 
 .fullcard:last-child{
     float: right;
+    margin-left:5%;
     
 }
+
+.
