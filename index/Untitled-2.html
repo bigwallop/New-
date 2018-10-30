@@ -14,6 +14,7 @@
 <div class="button-container">
 	<button onClick="changeMyText()">Change Text</button>
 	<button onClick="changeMyColor()">Change Color</button>
+	<button onClick="changeMyText()">Change Text</button>
 	</div>	
 	
 	
@@ -34,6 +35,10 @@
 
 		var RGBval = "rgb(" + red + "," + green +","+ blue + ")";
 		docheader.style.color = RGBval
+	}
+	
+	var changeMyText = function (){
+		document.getElementById('a').style.fontSize = "100px";
 	}
 	
 
