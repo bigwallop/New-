@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div class="button-container">
+	<button onclick="showHeader()" id="showButton">Show Header!</button>
+	<button onclick="hideHeader()" id="hideButton">Hide Header!</button>
+	</div>
+
+<p id="message"></p>
+	
+<script>
+var header = document.getElementById("docheader");
+	
+function showheader(){
+	console.log(header.style.visibility);
+	document.getElementById("message").innerText ="";
+	
+	if(header.style.visibilty. = "visible"){
+		document.getElementById("showbutton")
+	}
+	header.style.visibilty = "visible";
+}
+	
+function hideheader(){
+	console.log(header.style.visibility);
+	if(header.style.visibility === "hidden"){
+		document.getElementById("hideButton").setAttribute("disabled", "disabled",);
+		console.log(document.getElementById("message"));
+		document.getElementById("message").innerText = "The header";
+		
+	}
+	header.style.visibility = "hidden";
+}	
+	
+	
+	
+	
+	</script>	
+	
+</body>
+</html>
